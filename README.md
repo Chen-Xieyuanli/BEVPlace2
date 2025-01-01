@@ -1,5 +1,5 @@
 # BEVPlace++: Fast, Robust, and Lightweight LiDAR Global Localization for Unmanned Ground Vehicles
-BEVPlace++ is a LiDAR-based global localization method. It projects point clouds into Bird's-eye View (BEV) images and generates global features with a rotation equivariant module and the NetVLAD. It sequentially performs place recognition and pose estimation to achieve complete global localization. Experiments show that BEVPlace++ significantly outperforms the state-of-the-art (SOTA) methods and generalizes well to previously unseen environments. BEVPlace++ will certainly benefit various applications, including loop closure detection, global localization, and SLAM. Please feel free to use and enjoy it!
+BEVPlace++ is a LiDAR-based global localization method. It projects point clouds into Bird's-eye View (BEV) images and generates global features with a rotation equivariant module and the NetVLAD. It sequentially performs place recognition and pose estimation to achieve complete global localization. Experiments show that BEVPlace++ significantly outperforms the state-of-the-art (SOTA) methods and generalizes well to previously unseen environments. BEVPlace++ will benefit various applications, including loop closure detection, global localization, and SLAM. Please feel free to use and enjoy it!
 
 > More details can be found in our pre-print paper https://arxiv.org/pdf/2408.01841.
 
@@ -8,8 +8,6 @@ BEVPlace++ is a LiDAR-based global localization method. It projects point clouds
 > Loop results on KITTI 08.
 <video src="https://github.com/user-attachments/assets/a61b4d84-a220-40b9-add1-8473a05f46c5)
 https://github.com/user-attachments/assets/a61b4d84-a220-40b9-add1-8473a05f46c5"></video>
-
-
 
 > Global localization demo on NCLT.
 <video src=https://github.com/user-attachments/assets/042a923e-1bde-47f1-822a-86e92b21c15d></video>
@@ -64,11 +62,14 @@ Here are some experimental results on large-scale datasets.
       primaryClass={cs.RO},
       url={https://arxiv.org/abs/2408.01841}, 
 }
+```
+```
 @INPROCEEDINGS{luo2023bevplace,
-  author={Luo, Lun and Zheng, Shuhang and Li, Yixuan and Fan, Yongzhi and Yu, Beinan and Cao, Si-Yuan and Li, Junwei and Shen, Hui-Liang},
-  booktitle={2023 IEEE/CVF International Conference on Computer Vision (ICCV)}, 
-  title={BEVPlace: Learning LiDAR-based Place Recognition using Bird’s Eye View Images}, 
-  year={2023},
-  pages={8666-8675},
-  doi={10.1109/ICCV51070.2023.00799}}
+      author={Luo, Lun and Zheng, Shuhang and Li, Yixuan and Fan, Yongzhi and Yu, Beinan and Cao, Si-Yuan and Li, Junwei and Shen, Hui-Liang},
+      booktitle={2023 IEEE/CVF International Conference on Computer Vision (ICCV)}, 
+      title={BEVPlace: Learning LiDAR-based Place Recognition using Bird’s Eye View Images}, 
+      year={2023},
+      pages={8666-8675},
+      doi={10.1109/ICCV51070.2023.00799}
+}
 ```
